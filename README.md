@@ -7,12 +7,12 @@ In this project, we will be building a machine learning model that can efficient
 
 ## Table of Contents
 
-Dataset
-IBM Watson Studio
-IBM AutoAI
-IBM Model Deployment
-IBM Watson Assistant
-Node-RED
+1. Dataset
+2. IBM Watson Studio
+3. IBM AutoAI
+4. IBM Model Deployment
+5. IBM Watson Assistant
+6. Node-RED
 
 ## Visit our Website
 
