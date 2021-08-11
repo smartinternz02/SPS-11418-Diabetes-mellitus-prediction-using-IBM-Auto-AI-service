@@ -1,0 +1,1205 @@
+{
+  "intents": [
+    {
+      "intent": "blood_sugar_level",
+      "examples": [
+        {
+          "text": "signs of high blood sugar level"
+        },
+        {
+          "text": "signs of low blood sugar level"
+        },
+        {
+          "text": "symptoms of high blood sugar level"
+        },
+        {
+          "text": "symptoms of low blood sugar level"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Diabetes",
+      "examples": [
+        {
+          "text": "How is diabetes diagnosed?"
+        },
+        {
+          "text": "How is diabetes treated?"
+        },
+        {
+          "text": "What are the complications of diabetes?"
+        },
+        {
+          "text": "Who should be tested for diabetes?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Diet",
+      "examples": [
+        {
+          "text": "Blood sugar level"
+        },
+        {
+          "text": "Diet"
+        },
+        {
+          "text": "Insulin"
+        },
+        {
+          "text": "what diet should i follow"
+        },
+        {
+          "text": "whole wheat, fruits, sweet potatoes and jams, ost meal and oat bran, nuts, legumes, garlic, cold water fish, yoghurt"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Insulin",
+      "examples": [
+        {
+          "text": "A blood sample drawn from a vein in your arm"
+        },
+        {
+          "text": "insulin"
+        },
+        {
+          "text": "insulin test preparation"
+        },
+        {
+          "text": "sample required for insulin test"
+        },
+        {
+          "text": "when to get insulin test"
+        },
+        {
+          "text": "why insulin test"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "mediterranean_diet",
+      "examples": [
+        {
+          "text": "what is mediterranean diet"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "purpose_of_visit",
+      "examples": [
+        {
+          "text": "can u please check whether i have diabetes"
+        },
+        {
+          "text": "i want to know if i have diabetes or not"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Urine",
+      "examples": [
+        {
+          "text": "display urine chart"
+        },
+        {
+          "text": "urine test reults"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "blood_sugar_level",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "blood sugar level_1",
+          "synonyms": [
+            "high",
+            "high blood sugar level",
+            "hyperglycaemia",
+            "hyperglycemia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "blood sugar level_2",
+          "synonyms": [
+            "hypoglycaemia",
+            "hypoglycemia",
+            "low",
+            "low blood sugar level"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Body_mass_index",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Body mass index",
+          "synonyms": [
+            "BMI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Body mass index_1",
+          "synonyms": [
+            "BMI",
+            "normal"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Diabetes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "complications",
+          "synonyms": [
+            "difficulties",
+            "problem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "diabetes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "diagnosis",
+          "synonyms": [
+            "diagnosed"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "test",
+          "synonyms": [
+            "tested",
+            "tests"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "treatment",
+          "synonyms": [
+            "treat",
+            "treated"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Diet",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Blood pressure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blood sugar level",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Insulin",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greeting",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "good afternoon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "good evening",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "good morning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hello",
+          "synonyms": [
+            "hey",
+            "hi",
+            "hiee"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Insulin",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "insulin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "preparation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sample",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "when",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "why",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "purpose_of_visit",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "check diabetes",
+          "synonyms": [
+            "examine",
+            "inspect"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nope"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Urine",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Urine test chart",
+          "synonyms": [
+            "urine"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_10_1628528256722",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Urine_test",
+      "output": {
+        "generic": [
+          {
+            "source": "https://cdn11.bigcommerce.com/s-8e3ptdcwzv/product_images/uploaded_images/urine-check-7-chart.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@Urine:(Urine test chart) && #Urine",
+      "dialog_node": "node_10_1628425058723",
+      "previous_sibling": "node_1_1628411617590"
+    },
+    {
+      "type": "standard",
+      "title": "Diabetes",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Diabetes || @Diabetes",
+      "dialog_node": "node_10_1628528256722",
+      "previous_sibling": "node_7_1628606111767"
+    },
+    {
+      "type": "standard",
+      "title": "BMI",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Body_mass_index:(Body mass index) || @Body_mass_index:(Body mass index_1)",
+      "dialog_node": "node_1_1628410753799",
+      "previous_sibling": "node_3_1628602780862"
+    },
+    {
+      "type": "standard",
+      "title": "blood sugar level ",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#blood_sugar_level &&      @blood_sugar_level:(blood sugar level_1) || #blood_sugar_level && @blood_sugar_level:(blood sugar level_2)",
+      "dialog_node": "node_1_1628411617590",
+      "previous_sibling": "node_1_1628410753799"
+    },
+    {
+      "type": "standard",
+      "title": "options1",
+      "parent": "node_9_1628521621787",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Diet",
+      "dialog_node": "node_2_1628617509628"
+    },
+    {
+      "type": "standard",
+      "title": "purpose of visit",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have come to the right place. Did you take all the tests?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@purpose_of_visit || #purpose_of_visit",
+      "dialog_node": "node_3_1628602780862",
+      "previous_sibling": "node_8_1628602348206"
+    },
+    {
+      "type": "standard",
+      "title": "Insulin",
+      "output": {
+        "generic": [
+          {
+            "title": "faq about insulin",
+            "options": [
+              {
+                "label": "why",
+                "value": {
+                  "input": {
+                    "text": "why"
+                  }
+                }
+              },
+              {
+                "label": "when",
+                "value": {
+                  "input": {
+                    "text": "when"
+                  }
+                }
+              },
+              {
+                "label": "sample",
+                "value": {
+                  "input": {
+                    "text": "sample"
+                  }
+                }
+              },
+              {
+                "label": "Preparation",
+                "value": {
+                  "input": {
+                    "text": "Preparation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Insulin && @Insulin",
+      "dialog_node": "node_5_1628429601591",
+      "previous_sibling": "node_10_1628425058723"
+    },
+    {
+      "type": "standard",
+      "title": "mdiet",
+      "output": {
+        "generic": [
+          {
+            "title": "Mediterranean diet",
+            "source": "https://www.themediterraneandish.com/wp-content/uploads/2021/05/6.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#mediterranean_diet",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1628606111767",
+      "previous_sibling": "node_9_1628521621787"
+    },
+    {
+      "type": "standard",
+      "title": "options",
+      "parent": "node_5_1628429601591",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Insulin",
+      "dialog_node": "node_7_1628611429680"
+    },
+    {
+      "type": "standard",
+      "title": "greeting",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#greeting || @greeting",
+      "dialog_node": "node_8_1628602348206",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Diet",
+      "output": {
+        "generic": [
+          {
+            "title": "faq about insulin",
+            "options": [
+              {
+                "label": "Blood sugar level ",
+                "value": {
+                  "input": {
+                    "text": "Blood sugar level"
+                  }
+                }
+              },
+              {
+                "label": "Insulin",
+                "value": {
+                  "input": {
+                    "text": "Insulin"
+                  }
+                }
+              },
+              {
+                "label": "Blood pressure",
+                "value": {
+                  "input": {
+                    "text": "Blood pressure"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Diet",
+      "dialog_node": "node_9_1628521621787",
+      "previous_sibling": "node_5_1628429601591"
+    },
+    {
+      "type": "standard",
+      "parent": "node_3_1628602780862",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply",
+      "dialog_node": "node_9_1628603937722"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1628425058723",
+      "disabled": true,
+      "dialog_node": "response_10_1628428163560"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A BMI of less than 18.5 means that a person is underweight. A BMI of between 18.5 and 24.9 is ideal. A BMI of between 25 and 29.9 is overweight. A BMI over 30 indicates obesity."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1628410753799",
+      "conditions": "@Body_mass_index:(Body mass index_1)",
+      "dialog_node": "response_10_1628523345176",
+      "previous_sibling": "response_2_1628523306199"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Treatments for diabetes depend on your type of diabetes, how well controlled your blood glucose level is and your other existing health conditions.  Type 1 diabetes: If you have this type, you must take insulin every day. Your pancreas no longer makes insulin. Type 2 diabetes: If you have this type, your treatments can include medications (both for diabetes and for conditions that are risk factors for diabetes), insulin and lifestyle changes such as losing weight, making healthy food choices and being more physically active. Prediabetes: If you have prediabetes, the goal is to keep you from progressing to diabetes. Treatments are focused on treatable risk factors, such as losing weight by eating a healthy diet (like the Mediterranean diet) and exercising (at least five days a week for 30 minutes). Many of the strategies used to prevent diabetes are the same as those recommended to treat diabetes (see prevention section of this article). Gestational diabetes: If you have this type and your glucose level is not too high, your initial treatment might be modifying your diet and getting regular exercise. If the target goal is still not met or your glucose level is very high, your healthcare team may start medication or insulin. Oral medications and insulin work in one of these ways to treat your diabetes:  Stimulates your pancreas to make and release more insulin. Slows down the release of glucose from your liver (extra glucose is stored in your liver). Blocks the breakdown of carbohydrates in your stomach or intestines so that your tissues are more sensitive to (better react to) insulin. Helps rid your body of glucose through increased urination."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1628528256722",
+      "conditions": "@Diabetes:treatment",
+      "dialog_node": "response_10_1628530231539",
+      "previous_sibling": "response_9_1628530010106"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1628602780862",
+      "disabled": true,
+      "dialog_node": "response_1_1628603512466",
+      "previous_sibling": "node_9_1628603937722"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Body Mass Index (BMI) is a person’s weight in kilograms divided by the square of height in meters. A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual"
+              },
+              {
+                "text": "A BMI of less than 18.5 means that a person is underweight.\nA BMI of between 18.5 and 24.9 is ideal.\nA BMI of between 25 and 29.9 is overweight.\nA BMI over 30 indicates obesity."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1628410753799",
+      "conditions": "@Body_mass_index:(Body mass index)",
+      "dialog_node": "response_2_1628523306199"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Some diabetes drugs drive blood sugar too low and cause hypoglycemia. This may cause: heart palpitations, anxiety ,hunger ,sweating ,irritability ,fatigue.             Unresolved hypoglycemia may lead to serious complications such as:  clumsiness as if you’re intoxicated ,confusion ,seizures ,loss of consciousness"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1628411617590",
+      "conditions": "@blood_sugar_level:(blood sugar level_2)",
+      "dialog_node": "response_2_1628524236392",
+      "previous_sibling": "response_4_1628524208360"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello, how may I help you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1628602348206",
+      "conditions": "@greeting:hello",
+      "dialog_node": "response_2_1628602397423"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When you have low blood glucose levels with symptoms such as sweating, palpitations, dizziness, fainting; when you have diabetes and your healthcare practitioner wants to monitor your insulin production; sometimes when it is suspected that you have insulin resistance"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1628611429680",
+      "conditions": "@Insulin:when",
+      "dialog_node": "response_2_1628611604191",
+      "previous_sibling": "response_7_1628611541228"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Typically, you will be asked to fast for 8 hours before the blood sample is collected. Occasionally, a healthcare practitioner may do testing when fasting is not possible, such as when a glucose tolerance test is done. In some cases, a healthcare practitioner may request that you fast longer than 8 hours."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1628611429680",
+      "conditions": "@Insulin:preparation",
+      "dialog_node": "response_2_1628611652233",
+      "previous_sibling": "response_5_1628611633640"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good afternoon, how may I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1628602348206",
+      "conditions": "@greeting:(good afternoon)",
+      "dialog_node": "response_3_1628602561103",
+      "previous_sibling": "response_6_1628602536709"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Good, scroll down the website and you will find a form where you have to fill your results"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1628603937722",
+      "conditions": "@reply:yes",
+      "dialog_node": "response_3_1628603958772"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem, please take the necessary tests and comeback."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1628603937722",
+      "conditions": "@reply:no",
+      "dialog_node": "response_3_1628604171849",
+      "previous_sibling": "response_3_1628603958772"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "high-fiber foods, including beans and lentils. some whole grains, such as oats, quinoa, and barley. protein-rich foods, including lean meats, fish, soy, legumes, and nuts. fish with a high omega-3 fatty acid content, such as salmon, sardines, and herring."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1628617509628",
+      "conditions": "@Diet:Insulin",
+      "dialog_node": "response_3_1628617694930",
+      "previous_sibling": "response_8_1628617555267"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "High blood sugar is called hyperglycemia. Many people don’t feel symptoms of high blood sugar, especially if their blood sugar levels are regularly elevated. Some symptoms of hyperglycemia are:  frequent urination increased thirst and hunger blurred vision fatigue cuts and sores that won’t heal Long-term hyperglycemia may lead to chronic complications over time, such as eye, nerve, blood vessel, or kidney damage."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1628411617590",
+      "conditions": "@blood_sugar_level:(blood sugar level_1)",
+      "dialog_node": "response_4_1628524208360"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "faq about insulin",
+            "options": [
+              {
+                "label": "why",
+                "value": {
+                  "input": {
+                    "text": "To help evaluate insulin production by the beta cells in the pancreas; to help diagnose the presence of an insulin-producing tumor in the islet cells of the pancreas (insulinoma); to help determine the cause of low blood glucose (hypoglycemia); to help identify insulin resistance, or to help determine when a type 2 diabetic might need to start taking insulin to supplement oral medications"
+                  }
+                }
+              },
+              {
+                "label": "when",
+                "value": {
+                  "input": {
+                    "text": "When you have low blood glucose levels with symptoms such as sweating, palpitations, dizziness, fainting; when you have diabetes and your healthcare practitioner wants to monitor your insulin production; sometimes when it is suspected that you have insulin resistance"
+                  }
+                }
+              },
+              {
+                "label": "sample",
+                "value": {
+                  "input": {
+                    "text": "A blood sample drawn from a vein in your arm"
+                  }
+                }
+              },
+              {
+                "label": "Preparation",
+                "value": {
+                  "input": {
+                    "text": "Typically, you will be asked to fast for 8 hours before the blood sample is collected. Occasionally, a healthcare practitioner may do testing when fasting is not possible, such as when a glucose tolerance test is done. In some cases, a healthcare practitioner may request that you fast longer than 8 hours."
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1628429601591",
+      "disabled": true,
+      "conditions": "@Insulin",
+      "dialog_node": "response_5_1628429637301",
+      "previous_sibling": "node_7_1628611429680"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A blood sample drawn from a vein in your arm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1628611429680",
+      "conditions": "@Insulin:sample",
+      "dialog_node": "response_5_1628611633640",
+      "previous_sibling": "response_2_1628611604191"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1628521621787",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_5_1628617242451",
+      "previous_sibling": "node_2_1628617509628"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good morning, how may I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1628602348206",
+      "conditions": "@greeting:(good morning)",
+      "dialog_node": "response_6_1628602536709",
+      "previous_sibling": "response_2_1628602397423"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Diabetes is diagnosed and managed by checking your glucose level in a blood test. \n-There are three tests that can measure your blood glucose level: fasting glucose test, random glucose test and A1c test.  \n-Fasting plasma glucose test: This test is best done in the morning after an eight hour fast (nothing to eat or drink except sips of water). \n-Random plasma glucose test: This test can be done any time without the need to fast. \n-A1c test: This test, also called HbA1C or glycated hemoglobin test, provides your average blood glucose level over the past two to three months. \n-This test measures the amount of glucose attached to hemoglobin, the protein in your red blood cells that carries oxygen. \n-You don’t need to fast before this test. Oral glucose tolerance test: In this test, blood glucose level is first measured after an overnight fast. \n-Then you drink a sugary drink. \n-Your blood glucose level is then checked at hours one, two and three."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1628528256722",
+      "conditions": "@Diabetes:diagnosis",
+      "dialog_node": "response_7_1628528372964",
+      "previous_sibling": "response_8_1628528361382"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "To help evaluate insulin production by the beta cells in the pancreas; to help diagnose the presence of an insulin-producing tumor in the islet cells of the pancreas (insulinoma); to help determine the cause of low blood glucose (hypoglycemia); to help identify insulin resistance, or to help determine when a type 2 diabetic might need to start taking insulin to supplement oral medications"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1628611429680",
+      "conditions": "@Insulin:why",
+      "dialog_node": "response_7_1628611541228"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-If your blood glucose level remains high over a long period of time, your body’s tissues and organs can be seriously damaged. \n-Some complications can be life-threatening over time. \n-Complications include:  Cardiovascular issues including coronary artery disease, chest pain, heart attack, stroke, high blood pressure, high cholesterol, atherosclerosis (narrowing of the arteries). \n-Nerve damage (neuropathy) that causes numbing and tingling that starts at toes or fingers then spreads. \n-Kidney damage (nephropathy) that can lead to kidney failure or the need for dialysis or transplant. \n-Eye damage (retinopathy) that can lead to blindness; cataracts, glaucoma. Foot damage including nerve damage, poor blood flow and poor healing of cuts and sores. \n-Skin infections. \n-Erectile dysfunction. \n-Hearing loss. \n-Depression. \n-Dementia. \n-Dental problems. \n-Complications of gestational diabetes:  In the mother: Preeclampsia (high blood pressure, excess protein in urine, leg/feet swelling), risk of gestational diabetes during future pregnancies and risk of diabetes later in life.  \n-In the newborn: Higher-than-normal birth weight, low blood sugar (hypoglycemia), higher risk of developing Type 2 diabetes over time and death shortly after birth."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1628528256722",
+      "conditions": "@Diabetes:complications",
+      "dialog_node": "response_8_1628528361382"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good evening, how may I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1628602348206",
+      "conditions": "@greeting:(good evening)",
+      "dialog_node": "response_8_1628602580423",
+      "previous_sibling": "response_3_1628602561103"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "whole wheat, fruits, sweet potatoes and yams, oat meal and oat bran, nuts, legumes, garlic, cold water fish, yoghurt"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1628617509628",
+      "conditions": "@Diet:(Blood sugar level)",
+      "dialog_node": "response_8_1628617555267"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Foods to help lower blood pressure include fish, nuts, legumes, whole grains, fruits and vegetables and unsaturated fats.                  foods for high blood pressure include citrus foods, beets, dark chocolate etc.."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1628617509628",
+      "conditions": "@Diet:(Blood pressure)",
+      "dialog_node": "response_8_1628617750914",
+      "previous_sibling": "response_3_1628617694930"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you have symptoms or risk factors for diabetes, you should get tested. The earlier diabetes is found, the earlier management can begin and complications can be lessened or prevented. If a blood test determines you have prediabetes, you and your healthcare professional can work together to make lifestyle changes (e.g. weight loss, exercise, healthy diet) to prevent or delay developing Type 2 diabetes.  Additional specific testing advice based on risk factors:  Testing for Type 1 diabetes: Test in children and young adults who have a family history of diabetes. Less commonly, older adults may also develop Type 1 diabetes. Therefore, testing in adults who come to the hospital and are found to be in diabetic ketoacidosis is important. Ketoacidosis a dangerous complication that can occur in people with Type 1 diabetes. Testing for type 2 diabetes: Test adults age 45 or older, those between 19 and 44 who are overweight and have one or more risk factors, women who have had gestational diabetes, children between 10 and 18 who are overweight and have at least two risk factors for type 2 diabetes. Gestational diabetes: Test all pregnant women who have had a diagnosis of diabetes. Test all pregnant women between weeks 24 and 28 of their pregnancy. If you have other risk factors for gestational diabetes, your obstetrician may test you earlier."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1628528256722",
+      "conditions": "@Diabetes:test",
+      "dialog_node": "response_9_1628530010106",
+      "previous_sibling": "response_7_1628528372964"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am Doctor bot"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "blood sugar level"
+    },
+    {
+      "text": "whole wheat, fruits, sweet potatoes and yams, ost meal and oat bran, nuts, legumes, garlic, cold water fish, yoghurt"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Diabetes_Doctor",
+  "language": "en",
+  "description": ""
+}
