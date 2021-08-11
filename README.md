@@ -16,6 +16,8 @@ In this project, we will be building a machine learning model that can efficient
 
 ## Youtube Link
 
+https://youtu.be/WTRBEN5LitA
+
 ## Visit our Website
 
 https://node-red-dawjb-2021-07-28.eu-gb.mybluemix.net/ui/#!/0?socketid=0-Pq3yKHZmJa97nRAACn#home
